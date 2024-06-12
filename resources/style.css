@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: seashell;
+    background-color: black;
+}
+
+p, li {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px 0
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.logo {
+    margin-left: 10px;
+    height: 50px;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    text-decoration: underline;
+    margin: 0;
+    font-size: 22px;
+}
+
+body {
+    padding-top: 69px;
+}
+
+
+.mission-container {
+    position: relative;
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    /* Center the container horizontally */
+    overflow: hidden;
+    /* Ensure the content does not overflow the container */
+}
+
+.mission-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mission-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    /* Stretch the black background across the entire container */
+    max-width: 1200px;
+    /* Ensure it does not exceed the image width */
+    background-color: black;
+    color: seashell;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.mission-text h2,
+.mission-text h4 {
+    margin: 10px 0;
+}
+
+.featured-tea {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px auto;
+    text-align: center;
+}
+
+.tea-text {
+    padding-top: 70px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 30px;
+    margin-bottom: 70px;
+
+}
+
+.image-item {
+    width: 300px;
+    text-align: center;
+}
+
+.image-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.image-item p {
+    margin-top: 10px;
+    color: seashell;
+}
+
+
+.locations {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.locations-container {
+    min-height: 500px;
+    position: relative;
+    width: 1200px;
+    text-align: center;
+}
+
+.locations-container img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; /* Ensures the image covers the container without squishing */
+}
+
+.locations-text {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    text-align: center;
+    z-index: 4; /* Ensure the text is above the image */
+    margin-bottom: 15px;
+}
+
+
+.text-items-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Add horizontal spacing between .text-item elements */
+    margin-bottom: 20px; /* Add spacing between the text-items and the image */
+}
+
+.text-item-1 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    line-height: 1.5;
+    z-index: 1; 
+}
+
+.text-item-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    line-height: 1.5;
+    z-index: 2; 
+}
+
+.text-item-3 {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: seashell;
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    line-height: 1.5;
+    z-index: 3; 
+}
+
+.text-item h3 {
+    margin-bottom: 15px;
+}
+
+.text-item p {
+    margin: 10px 0;
+}
+
+.footer-header {
+    height: 200px;
+}
+
+.footer-header-text {
+    color: seashell;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.footer-text {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
